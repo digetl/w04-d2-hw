@@ -1,7 +1,11 @@
 body{
     color:white;
-    background-color:#829da7;
-font-family: Arial, Helvetica, sans-serif;}
+    /* background-color:#829da7; */
+font-family: Arial, Helvetica, sans-serif;
+padding:5rem;
+background-image: url(/cinema.jpg);
+background-size: cover;
+}
 
 ul{
     font-size: 2rem;
@@ -14,13 +18,13 @@ ul{
     text-align: center;
 }
 
+li:nth-child(odd) {
+    background: darkslateblue;
+}
+
 li:hover{
     color: darkslategrey;
     background-color: aqua;
-}
-
-li:nth-child(odd) {
-    background: darkslateblue;
 }
 
 h1 {
@@ -28,12 +32,33 @@ h1 {
 }
 
 .film_container { 
-    width:100vw;
-    display: flex;
-    justify-content: space-around;
+    width:60vw;
+    margin:auto;
 }
 
 .list_item { 
     list-style-position:inside;
-    border: 2px solid #ad9f9a;
+    border-bottom: 1px solid #ad9f9a;
+    border-top: 1px solid #ad9f9a;
+}
+
+.list_item:first-child{ 
+    border-top: 2px solid #ad9f9a;
+}
+
+.list_item:last-child{ 
+    list-style-position:inside;
+    border-bottom: 2px solid #ad9f9a;
+}
+
+
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover{
+    opacity: 0.5;
+    text-decoration: none;
 }

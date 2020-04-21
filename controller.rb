@@ -14,3 +14,7 @@ get "/films" do
     erb(:films)
  end
  
+get '/details/:id' do
+    @film = Film.all(params[:id])
+    erb(:details)
+end
