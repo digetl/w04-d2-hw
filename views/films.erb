@@ -1,0 +1,9 @@
+<h1>FILMS</h1>
+
+<div class = "film_container">
+    <ul class = "film_list">
+        <% @films.each do |film| %>
+        <li class = "list_item"> <%= film.title %> </li>
+        <% end %>
+    </ul>
+</div>

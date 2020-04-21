@@ -1,0 +1,45 @@
+*
+
+body{
+    color:white;
+    background-color:#829da7;
+font-family: Arial, Helvetica, sans-serif;}
+
+ul{
+    font-size: 2rem;
+    line-height: 4.3rem;
+
+    color: #fff;
+    text-transform: capitalize;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+
+li:hover{
+    color: darkslategrey;
+    background-color: aqua;
+}
+
+li:nth-child(odd) { background: darkslateblue; }
+
+h1 {
+
+    font-family: Arial, Helvetica, sans-serif;}
+
+
+
+
+
+
+.film_container { 
+    width:100vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.list_item { 
+    list-style-position:inside;
+    border: 2px solid #ad9f9a;
+}
