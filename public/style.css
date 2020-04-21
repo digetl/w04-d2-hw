@@ -36,6 +36,14 @@ h1 {
     margin:auto;
 }
 
+.film_container li:nth-child(odd) a{
+color:#000;
+}
+
+.film_container li:nth-child(even) a:hover{
+    color:darkslateblue;
+    }
+
 .list_item { 
     list-style-position:inside;
     border-bottom: 1px solid #ad9f9a;
